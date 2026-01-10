@@ -1,6 +1,6 @@
 # Private File Uploader - Fullstack & Cloud Storage
 
-Um sistema de upload de arquivos de alta performance, focado em privacidade e segurança, utilizando armazenamento em nuvem (Cloudflare R2).
+Um sistema de upload de arquivos, focado em privacidade e segurança, utilizando armazenamento em nuvem (Cloudflare R2).
 
 ## O projeto
 Este projeto foi desenvolvido para resolver o desafio de transferir arquivos de forma rápida e segura, com um ciclo de vida controlado (auto-delete). Diferente de outras soluções, este uploader prioriza a privacidade do usuário: as informações sobre os arquivos enviados ficam gravadas apenas no navegador do usuário (LocalStorage), e os arquivos são deletados permanentemente do servidor após 30 minutos.
